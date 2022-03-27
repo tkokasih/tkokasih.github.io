@@ -2,7 +2,12 @@
 
 Test creation of static site
 
-# Subpages
-* [notes/test.md](./notes/test.md)
-* [notes/sql.md](./notes/sql.md)
-* [notes/linux/shell.md](./notes/linux/shell.md)
+# Test
+* [test.md](./notes/test.md)
+* [sql.md](./notes/sql.md)
+
+## Linux
+* [linux/shell.md](./notes/linux/shell.md)
+
+## Finance
+* [finance/time_value_of_money.md](./notes/finance/time_value_of_money.md)
