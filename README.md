@@ -11,3 +11,7 @@ Test creation of static site
 
 ## Finance
 * [finance/time_value_of_money.md](./notes/finance/time_value_of_money.md)
+
+## Misc
+For stuff that doesn't have definite place, yet
+* [misc/jwt.md](./notes/misc/jwt.md)
