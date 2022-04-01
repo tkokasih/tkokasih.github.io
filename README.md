@@ -15,3 +15,4 @@ Test creation of static site
 ## Misc
 For stuff that doesn't have definite place, yet
 * [misc/jwt.md](./notes/misc/jwt.md)
+* [misc/pondering.md](./notes/misc/pondering.md)
