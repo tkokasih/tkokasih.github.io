@@ -45,3 +45,4 @@ Which is three base64-url encoded parts, separated by dot:
 
 ## Futher Reading?
 * [rfc-7519](https://www.rfc-editor.org/rfc/rfc7519.html)
+* [jwt.io](https://jwt.io)
