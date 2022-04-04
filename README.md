@@ -8,6 +8,7 @@ Test creation of static site
 
 ## Linux
 * [linux/shell.md](./notes/linux/shell.md)
+* [linux/snap.md](./notes/linux/snap.md)
 
 ## Finance
 * [finance/time_value_of_money.md](./notes/finance/time_value_of_money.md)
