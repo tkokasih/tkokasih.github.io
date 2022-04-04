@@ -5,6 +5,8 @@ Test creation of static site
 ## Test
 * [test.md](./notes/test.md)
 
+## Finance
+* [finance/time_value_of_money.md](./notes/finance/time_value_of_money.md)
 
 ## Lang
 * [lang/KDL.md](./notes/lang/KDL.md)
@@ -14,8 +16,11 @@ Test creation of static site
 * [linux/shell.md](./notes/linux/shell.md)
 * [linux/snap.md](./notes/linux/snap.md)
 
-## Finance
-* [finance/time_value_of_money.md](./notes/finance/time_value_of_money.md)
+## List
+List of interesting list
+* [list/ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade)
+* [list/Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin)
+* [list/Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 ## Misc
 For stuff that doesn't have definite place, yet
