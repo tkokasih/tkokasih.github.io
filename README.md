@@ -2,9 +2,13 @@
 
 Test creation of static site
 
-# Test
+## Test
 * [test.md](./notes/test.md)
-* [sql.md](./notes/sql.md)
+
+
+## Lang
+* [lang/KDL.md](./notes/lang/KDL.md)
+* [lang/SQL.md](./notes/lang/SQL.md)
 
 ## Linux
 * [linux/shell.md](./notes/linux/shell.md)
