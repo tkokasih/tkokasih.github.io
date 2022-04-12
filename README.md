@@ -26,6 +26,9 @@ List of interesting list
 * [list/Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin)
 * [list/Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
+# Physics
+* [physics/energy_storage.md](./notes/physics/energy_storage.md)
+
 ## Misc
 For stuff that doesn't have definite place, yet
 * [misc/jwt.md](./notes/misc/jwt.md)
