@@ -16,6 +16,7 @@ Test creation of static site
 * [lang/SQL.md](./notes/lang/SQL.md)
 
 ## Linux
+* [linux/ranger.md](./notes/linux/ranger.md)
 * [linux/shell.md](./notes/linux/shell.md)
 * [linux/snap.md](./notes/linux/snap.md)
 
