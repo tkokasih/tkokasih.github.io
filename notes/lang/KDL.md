@@ -1,3 +1,21 @@
+## Background
+
+Configuration languages are pains to work with, is there a better language?
+
+Some complains include:
+* XML is too verbose. Opening and closing tag?
+
+  In XML defense, it is a markup language, not a configuration language.
+
+* INI doesn't have nesting
+
+* TOML nesting is 'difficult'
+
+* JSON is too "quoty"
+
+* YAML has significant spacing and lacks tag/attributes concept
+
+
 ## What is KDL?
 
 KDL is like XML but easier to read. 
