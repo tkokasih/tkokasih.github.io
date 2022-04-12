@@ -5,6 +5,9 @@ Test creation of static site
 ## Test
 * [test.md](./notes/test.md)
 
+## Astronomy
+* [astronomy/analemma.md](./notes/astronomy/analemma.md)
+
 ## Finance
 * [finance/time_value_of_money.md](./notes/finance/time_value_of_money.md)
 
