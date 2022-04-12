@@ -1,6 +1,12 @@
-## What is Analemma?
+## Background
 
-Analemma is sun's position in the sky throughout the year.
+Walking home after work, I notice that the sun is not always in the same position at around the same time.
+
+It shifted higher/lower and also north-south. What is this position of the sun given a langitude/latitude/altitude/time-of-day?
+
+## Analemma
+
+Analemma is sun's position in the sky throughout the year from the same lat/long/alt/time-of-day.
 
 <a title="Jfishburn at English Wikipedia, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Analemma_fishburn.tif"><img width="256" alt="Analemma fishburn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Analemma_fishburn.tif/lossy-page1-475px-Analemma_fishburn.tif.jpg"></a>
 
