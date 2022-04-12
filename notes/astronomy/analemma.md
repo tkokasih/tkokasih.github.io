@@ -2,6 +2,8 @@
 
 Analemma is sun's position in the sky throughout the year.
 
+<a title="Jfishburn at English Wikipedia, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Analemma_fishburn.tif"><img width="256" alt="Analemma fishburn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Analemma_fishburn.tif/lossy-page1-475px-Analemma_fishburn.tif.jpg"></a>
+
 Here's how to get analemma in your location:
 * For one year, take picture of the the sun's position at the same time (e.g. 07:00 in the morning) from the same spot.
 * Congratulations, you get yourself the analemma of your longitude/latitude/altitude.
