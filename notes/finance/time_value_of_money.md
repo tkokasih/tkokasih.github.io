@@ -74,6 +74,7 @@
 
 ## Time Value of Money
 ### Rate
+
 * Moving money from present to future or vice-versa involve a "distortion field" called "rate"
   * depending on context, rate can be inflation, interest, rate of return, etc.
 * This is **Time Value of Money**
