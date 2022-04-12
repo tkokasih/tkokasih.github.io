@@ -26,6 +26,11 @@ List of interesting list
 * [list/Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin)
 * [list/Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
+
+## Interesting Stuffs
+* [Parable of Polygons](https://ncase.me/polygons/)
+  Explore how a small bias in individual can translate into segregated society
+
 # Physics
 * [physics/energy_storage.md](./notes/physics/energy_storage.md)
 
