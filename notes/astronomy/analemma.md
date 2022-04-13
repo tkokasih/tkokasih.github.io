@@ -1,8 +1,9 @@
 ## Background
 
-Walking home after work, I notice that the sun is not always in the same position at around the same time.
+Walking home after work, I noticed the sun is not always in the same position at around the same time.
 
-It shifted higher/lower and also north-south. What is this position of the sun given a langitude/latitude/altitude/time-of-day?
+It shifted higher/lower and sideways.
+What is the position of the sun given a longitude/latitude/altitude/time-of-day?
 
 ## Analemma
 
