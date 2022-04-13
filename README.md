@@ -20,6 +20,7 @@ Test creation of static site
 * [linux/ranger.md](./notes/linux/ranger.md)
 * [linux/shell.md](./notes/linux/shell.md)
 * [linux/snap.md](./notes/linux/snap.md)
+* [linux/boot.md](./notes/linux/boot.md)
 
 ## List
 List of interesting list
