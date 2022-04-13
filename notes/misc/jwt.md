@@ -6,7 +6,8 @@ JWT looks something like this:
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 ```
 
-Which is three base64-url encoded parts, separated by dot:
+Which is three base64-url encoded parts, separated by dot (go find the two dots in example above).
+
 * Header
     ```
     eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
