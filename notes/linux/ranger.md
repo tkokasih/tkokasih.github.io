@@ -1,11 +1,23 @@
+## Background
+
+Having worked in linux for sometime, it is tiring to traverse directory structure with `cd` and `ls`.
+There must be a better way.
+And I have fascination with miller column.
+So, I wish there is a terminal file manager that has miller column.
+
+Lo and behold: `ranger` that already receive the highest form of flattery: cloned project.
+
+
 ## What is ranger?
 
 One of plethora of file manager, written in python.
+Prominent feature includes:
+* Miller column!
+* vi keybinding
 
-## What's so special about ranger?
-
-* It implements Miller Column
-* With vi keybinding
+Downside?
+* People complain it is slow, but it is OK enough for me
+* I still get my terminal went haywire if I tried to edit with vim from ranger.
 
 ## Some cheatsheet
 
