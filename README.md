@@ -12,6 +12,7 @@ Test creation of static site
 * [finance/time_value_of_money.md](./notes/finance/time_value_of_money.md)
 
 ## Lang
+* [lang/ASN1.md](./notes/lang/ASN1.md)
 * [lang/KDL.md](./notes/lang/KDL.md)
 * [lang/SQL.md](./notes/lang/SQL.md)
 
