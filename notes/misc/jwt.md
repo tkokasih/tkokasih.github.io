@@ -11,7 +11,7 @@ Which is three base64-url encoded parts, separated by dot:
     ```
     eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
     ```
-    which decoded to
+    which decodes to
     ```json
     {
         "alg": "HS256",
@@ -34,7 +34,7 @@ Which is three base64-url encoded parts, separated by dot:
     ```
     SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
     ```
-    which is not decoded. It is the 
+    which does not decode. This is the value of:
     ```
     HMACSHA256(
         base64UrlEncode(header) + "." +
