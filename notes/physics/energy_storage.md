@@ -3,11 +3,13 @@
 Having impressed that there is 'air power tools', I was wondering how else can we store energy.
 
 It turns out, there are a whole range of options to store energy other than battery or fuel.
-Some of which includes lifting tons of concrete that will convert excess energy into potential energy,
-e.g. [Energy Vault](https://www.energyvault.com/), 
-molten salt,
-flywheel,
-and of course good old water in a dam.
+Some of which:
+* lifting tons of concrete
+e.g. [Energy Vault](https://www.energyvault.com/),
+* melting salt (how does it store the energy?),
+* spinning flywheel,
+* pumping water into dam
+* and many more ways
 
 ## What are possible storage of energy?
 
@@ -48,3 +50,13 @@ If so, is it enough to power electronics that goes with people? like smartphone?
 ### How about human's movement?
 
 Good for charging while hiking, for example.
+
+### Is there energy conversion that is more efficient?
+
+Currently, energy distribution mainly means electrical grid, at least from my/consumer perspective. Is this conversion always efficient?
+
+### Can we store energy in the form of photon?
+
+You know, that particle that always escape or captured.
+Is it possible for pure photon.
+Sounds non-sensical.
