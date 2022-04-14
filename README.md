@@ -40,3 +40,4 @@ List of interesting list
 For stuff that doesn't have definite place, yet
 * [misc/jwt.md](./notes/misc/jwt.md)
 * [misc/pondering.md](./notes/misc/pondering.md)
+* [misc/pkcs.md](./notes/misc/pkcs.md)
