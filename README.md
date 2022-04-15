@@ -33,6 +33,9 @@ List of interesting list
 * [Parable of Polygons](https://ncase.me/polygons/)
   Explore how a small bias in individual can translate into segregated society
 
+## Ops Incident
+* [ops_incident/2022_04_atlassian.md](./notes/ops_incident/2022_04_atlassian.md)
+
 ## Physics
 * [physics/energy_storage.md](./notes/physics/energy_storage.md)
 
