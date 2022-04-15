@@ -46,3 +46,4 @@ For stuff that doesn't have definite place, yet
 * [misc/ldap.md](./notes/misc/ldap.md)
 * [misc/pondering.md](./notes/misc/pondering.md)
 * [misc/pkcs.md](./notes/misc/pkcs.md)
+* [misc/php.md](./notes/misc/php.md)
