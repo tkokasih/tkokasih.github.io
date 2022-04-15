@@ -1,3 +1,8 @@
+## Background
+
+I learned that Ubuntu comes up with another packaging format called snap. Why?
+It sounds like container. Why not reuse container?
+
 ## Why Ubuntu created snap? Why not reuse Docker?
 
 Docker abstracts few things too many for local workload.
