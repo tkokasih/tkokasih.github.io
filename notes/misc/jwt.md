@@ -1,3 +1,8 @@
+## Background
+
+Working with authentication and authorization in web space, one cannot escape JWT and its variant.
+This is my short-note, as JWT is not meant to be complicated.
+
 ## What is JWT?
 
 JWT looks something like this: 
