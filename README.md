@@ -10,6 +10,7 @@ Test creation of static site
 
 ## Finance
 * [finance/time_value_of_money.md](./notes/finance/time_value_of_money.md)
+* [finance/industry_classification.md](./notes/finance/industry_classification.md)
 
 ## Lang
 * [lang/ASN1.md](./notes/lang/ASN1.md)
