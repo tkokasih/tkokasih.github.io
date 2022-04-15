@@ -1,15 +1,20 @@
+## Background
+
+When dealing with SQL, sometimes I have to re-read the concept of JOIN and AGGREGATE.
+
+This note is to shorten these refresh.
+
 ## SQL
 * All `JOIN` can be considered as `CROSS JOIN` with filtering/constraints.
 * When two tables has the same column as join constraint, we can use `USING`, e.g.
   ```SQL
-  -- With ON subclause
   SELECT c.first_name, c.last_name, a.address
   FROM customer AS c INNER JOIN address AS a
+
+  -- Using ON clause
   ON c.address_id = a.address_id;
 
-  -- With USING subclause
-  SELECT c.first_name, c.last_name, a.address
-  FROM customer AS c INNER JOIN address AS a
+  -- Using USING clause
   USING (address_id);
   ```
 * `HAVING` is for aggregate, like `WHERE` for row data.
@@ -18,17 +23,16 @@
   SELECT fa.actor_id, f.rating, count(*)
     FROM film_actor AS fa INNER JOIN film AS f
     USING (film_id)
+
+  -- ERROR as it tries to filter Aggregate function in WHERE clause
   WHERE f.rating IN ('G','PG')
-    AND count(*) > 9                   -- ERROR, filtering aggregate in WHERE subclause
+    AND count(*) > 9
   GROUP BY fa.actor_id, f.rating;
 
-  -- Using aggregate filter
-  SELECT fa.actor_id, f.rating, count(*)
-    FROM film_actor AS fa INNER JOIN film AS f
-    USING (film_id)
+  -- OK as it filter aggregate function in HAVING clause
   WHERE f.rating IN ('G','PG')
   GROUP BY fa.actor_id, f.rating
-  HAVING count(*) > 9;                 -- HAVING is applicable for aggregate
+  HAVING count(*) > 9;
   ```
 * CTE is only introduced with MySQL 8.0, otherwise, we need to use Subquery, derived table, or temporary table, among other things.
 
