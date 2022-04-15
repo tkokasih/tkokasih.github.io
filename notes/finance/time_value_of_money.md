@@ -1,15 +1,19 @@
-# Cash Flow Diagram
+## Background
+
+I took CFA level 1 and this is **the** most fundamental of the material.
+I document it here for my own refresher.
 
 > **WARNING**: This is **my** mental model with **my own language**. Proceed with care.
 > 
 > Example: there is no such thing as *distortion field* in finance literature (AFAIK), nor financial instrument == tunnel to send money between past, present and future.
 
-## Basics
+## Cash Flow Diagram
+
 * x-axis: time
 * Arrow up: money put into the account
 * Arrow down: money taken out of the account
 
-## Examples
+Examples:
 * Put money $100.00 to a bank account, and take out $120.00 in 5 years:
   ```
   Wallet
@@ -82,6 +86,7 @@
   * Current money (n=0) of $100 is "equivalent" with $102 in 1 year (n=1) under "distortion field"/rate of 2%
   * Same money (n=0) of $100 is "equivalent" with $108 in 1 year (n=1) under "distortion field"/rate of 8%
   * The following are tables of this "equivalence"
+
     | n   | rate=2% | rate=3% | rate=5% | rate=8% |
     |-----|---------|---------|---------|---------|
     |   0 |  100.00 |  100.00 |  100.00 |  100.00 |
@@ -93,6 +98,7 @@
     |  10 |  121.90 |  134.39 |  162.89 |  215.89 |
     |  15 |  134.59 |  155.80 |  207.89 |  317.22 |
     |  20 |  148.59 |  180.61 |  265.33 |  466.10 |
+
 * Financial instruments are like tunnels (with distortion field) to send money between present and future.
   * You have loads of money now that you don't need: send it through a tunnel to receive it in the future, be it in form of cash, savings, stocks, equity, bonds, gold, foreign currency, etc.
   * You need a lot of money to pay for a big expense now and decide that future you will send your future money to now: find a tunnel that can channel your future money: loan, mortgage, etc.
