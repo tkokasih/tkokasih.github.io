@@ -66,9 +66,24 @@ A short reading will refresh my understanding.
 
   This rfc7468 documents what headers/footers commonly used to wrap the other representation.
 
-  * Notes:
+  For openssl implementation, the wrapper can be found in [crypto/pem/pem.h](https://github.com/openssl/openssl/blob/master/include/openssl/pem.h)
 
-    For openssl implementation, the wrapper can be found in [crypto/pem/pem.h](https://github.com/openssl/openssl/blob/master/include/openssl/pem.h)
+
+  Examples:
+  ```
+  -----BEGIN PRIVATE KEY-----
+  ..
+  .. PKCS#8 Base64 Here ...
+  ..
+  -----END PRIVATE KEY-----
+
+
+  -----BEGIN EC PRIVATE KEY-----
+  ..
+  .. SEC1 Private Key Base64 Here ...
+  ..
+  -----END PRIVATE KEY-----
+  ```
 
 ## Cheatsheet
 
