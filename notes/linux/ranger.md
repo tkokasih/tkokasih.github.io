@@ -5,7 +5,7 @@ There must be a better way.
 And I have fascination with miller column.
 So, I wish there is a terminal file manager that has miller column.
 
-Lo and behold: `ranger` that already receive the highest form of flattery: cloned project.
+Lo and behold: `ranger`! And it already received the highest form of flattery: cloned project in other language.
 
 
 ## What is ranger?
