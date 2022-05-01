@@ -39,3 +39,24 @@ And there are domain-specific abstraction/concepts:
 * Certificates, etc.
 
 Questions: Is there a connection between set theory and these abstractions? Does these abstration represent one group in set theory?
+
+## Sequence, Series and Wave Function
+
+* Sequence: list of numbers, e.g.
+  1, 2, 3, 4, 5, ... or
+  1, 4, 9, 16, 25, ... or
+  1, 1/2, 1/4, 1/8, 1/16, ...
+
+* Series: sum of sequence, e.g.
+  1 + 2 + 3 + 4 + 5 + ...
+  1 + 4 + 9 + 16 + 25 + ...
+  1 + 1/2 + 1/4 + 1/8 + 1/16 + ...
+
+For above sequence/series, the properties are roughly "well-known", e.g. they go to infinity.
+For the following series:
+* 1 - 1 + 1 - 1 + 1 - 1 + 1 ....
+  The "series" kept alternating between 1 and 0. So, there is no "definite" value of this series.
+  What if we represent this as "wave function", e.g. |1> + |0>
+
+This idea should have been explored somewhere in mathematics.
+Find this mathematics.
