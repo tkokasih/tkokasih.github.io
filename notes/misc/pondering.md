@@ -1,9 +1,18 @@
-## Sun position: North-South
-I notice that the sun position changed in north-south direction.
-Do we know the position of the sun given:
-* time of year
-* latitute, longitude, altitude
+## Human activities
 
-### Finding
-The position of the sun across the year is termed as `analemma`.
-Internet has more information once you know this term.
+In any place, how can we classify human activities?
+Take for example a mining town (can be a spaceship mining a rather large asteroids), we will find the following "industries"
+* Industries to maintain the populace:
+  * Food and drinks
+  * Clothing
+  * Medical services
+  * Housing
+  * Policing of social order
+  * Education (if the town spawn more than one generation)
+  * Transport of human, goods and services
+  * Communication
+  * Financial services (?)
+
+* Industries for the specific town:
+  * Mining
+  * Maintenance of mining equipment
