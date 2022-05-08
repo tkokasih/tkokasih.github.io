@@ -47,3 +47,5 @@ However, it bothers me that OneNote:
   * [Remnote](https://www.remnote.io)
   * [Obsidian](https://obsidian.md)
   * [logseq](https://logseq.com)
+
+* One that looks simple: [VSCode memo](https://github.com/svsool/memo)
