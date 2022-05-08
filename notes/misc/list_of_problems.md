@@ -17,4 +17,31 @@ then it gradually solves the problem by introducing spokes and built the solutio
 
 Each step of the partial solution is clearly linked with the sub-problem it tries to solve.
 
-.. TBC ..
+---
+
+List of points to be elaborated:
+
+* Package distribution:
+  * format
+  * discoverability
+  * storage
+  * maintenance
+  * patch
+  * compatibility
+
+* OS:
+  * finding hardware
+  * control of resources / scheduling
+  * interation with hardware
+
+* protocol design:
+  * reliability (e.g. TCP/UDP)
+  * congestion control
+  * security
+  * routing
+  * discoverability
+
+* language design:
+  * atomic unit
+  * means of combination
+  * means of abstraction
