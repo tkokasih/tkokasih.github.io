@@ -48,3 +48,4 @@ For stuff that doesn't have definite place, yet
 * [misc/pkcs.md](./notes/misc/pkcs.md)
 * [misc/php.md](./notes/misc/php.md)
 * [misc/list_of_problems.md (in progress)](./notes/misc/list_of_problems.md)
+* [misc/linked_notes.md (in progress)](./notes/misc/linked_notes.md)
