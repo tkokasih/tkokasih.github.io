@@ -25,13 +25,13 @@ Test creation of static site
 
 ## List
 List of interesting list
-* [[list/ToolsOfTheTrade]]
-* [[list/Awesome Sysadmin]]
-* [[list/Awesome Selfhosted]]
+* [list/ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade)
+* [list/Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin)
+* [list/Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 
 ## Interesting Stuffs
-* [[Parable of Polygons]]
+* [Parable of Polygons](https://ncase.me/polygons/)
   Explore how a small bias in individual can translate into segregated society
 
 ## Ops Incident
