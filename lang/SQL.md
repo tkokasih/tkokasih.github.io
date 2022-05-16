@@ -5,7 +5,8 @@ When dealing with SQL, sometimes I have to re-read the concept of JOIN and AGGRE
 This note is to shorten these refresh.
 
 ## SQL
-* All `JOIN` can be considered as `CROSS JOIN` with filtering/constraints.
+* All `JOIN` can be considered as `CROSS JOIN` with filtering/constraints where
+  `CROSS JOIN` is cartesian product of the two joined tables.
 * When two tables has the same column as join constraint, we can use `USING`, e.g.
   ```SQL
   SELECT c.first_name, c.last_name, a.address
@@ -26,13 +27,13 @@ This note is to shorten these refresh.
 
   -- ERROR as it tries to filter Aggregate function in WHERE clause
   WHERE f.rating IN ('G','PG')
-    AND count(*) > 9
+    AND count(*) > 9              -- ERROR on this line, using count(*) on WHERE
   GROUP BY fa.actor_id, f.rating;
 
   -- OK as it filter aggregate function in HAVING clause
   WHERE f.rating IN ('G','PG')
   GROUP BY fa.actor_id, f.rating
-  HAVING count(*) > 9;
+  HAVING count(*) > 9;            -- OK, using count(*) on HAVING clause
   ```
 * CTE is only introduced with MySQL 8.0, otherwise, we need to use Subquery, derived table, or temporary table, among other things.
 
