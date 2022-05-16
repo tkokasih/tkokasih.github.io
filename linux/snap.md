@@ -29,7 +29,7 @@ The arguments boils down to the control of snap store [Linux Mint User Guide on 
   * Nobody else knows or can make Snap Store
   * Snap client is designed to work with only one source
   * Ubuntu Store cannot be audited nor patched openly
-
+* Snap is auto-updating, and it is quite a no-no in Linux perspective.
 
 ## Ref
 

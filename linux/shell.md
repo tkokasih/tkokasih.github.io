@@ -5,6 +5,7 @@
 I worked with linux and docker container and I still have fuzzy understanding on what it is I'm typing to?
 Like when I ssh into a server, or exec into a container, what is that prompt?
 What is a shell? What's the difference between shell, tty, console, terminal, and cli?
+How does a shell and kernel related?
 
 ## Shell
 

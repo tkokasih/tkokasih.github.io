@@ -10,14 +10,14 @@ Lo and behold: `ranger`! And it already received the highest form of flattery: c
 
 ## What is ranger?
 
-One of plethora of file manager, written in python.
+One of the many file manager, written in python.
 Prominent feature includes:
 * Miller column!
 * vi keybinding
 
 Downside?
 * People complain it is slow, but it is OK enough for me
-* I still get my terminal went haywire if I tried to edit with vim from ranger.
+* I still get my terminal (cmder) went haywire if I tried to edit with vim from ranger.
 
 ## Some cheatsheet
 

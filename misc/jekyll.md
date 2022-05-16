@@ -12,7 +12,8 @@ This is a quickstart on how Jekyll works.
   All files that will be transformed to html page.
   Example includes this page.
   Typical pages includes:
-  * 
+  * index.html
+  * about.html
 
 * Posts
 
@@ -42,22 +43,24 @@ This is a quickstart on how Jekyll works.
 
 Layout lives under `_layouts/` folder and will be used to layout the pages above. Example:
 
-```
----
-layout: default
----
-<head>
-  <title>{{ page.title }}</title>
-</head>
-<body>
-  {{ content }}
-</body>
-<footer>
-  This is footer
-</footer>
-```
+  ```
+  ---
+  layout: default
+  ---
+  <head>
+    <title>{{ page.title }}</title>
+  </head>
 
-* special naming:
+  <body>
+    {{ content }}
+  </body>
+
+  <footer>
+    This is footer
+  </footer>
+  ```
+
+* special naming under `_layouts/`:
   * `home.html`: for home page
   * `page.html`: for pages
   * `post.html`: for posts
