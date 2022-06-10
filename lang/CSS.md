@@ -8,6 +8,7 @@ This notes is to refresh when I have to deal with it again.
 ## Selectors
 
 * Selector type:
+
   | name | pattern | example | comment |
   |------|----------|-------|--|
   | id                 | `#some-id`   | `#doc-content` | |
@@ -16,6 +17,7 @@ This notes is to refresh when I have to deal with it again.
   | universal selector | `*`          | `*`            | select everything
 
 * Combinators:
+
   | name | pattern | example | comment |
   |-----|----------|---------|---------|
   | descendant | `a b` | `.nav li` | all `li` under `.nav` |
@@ -27,6 +29,7 @@ This notes is to refresh when I have to deal with it again.
 * Specificity of selector, can be noted in 4 digits:
   * `origin, id, class, type`, e.g. `1,3,4,2`
   * more specific selector wins, e.g. sorted by more specific:
+
     | order | specificity | comment |
     |-------|--------------|----|
     | 1     | `1,0,0,0`    | origin |
@@ -42,6 +45,7 @@ This notes is to refresh when I have to deal with it again.
 
 ## Properties
 * Shorthard properties:
+
   | # properties | pattern | example | comment |
   |--------------|-|-|-|
   | 4 | `top, right, bottom, left` | `padding: 2em 2em 1em 1em;` | |
@@ -50,6 +54,7 @@ This notes is to refresh when I have to deal with it again.
 
 * Units
   * Absoulte unit
+
     | unit | example | comment |
     |--|--|--|
     | px | `1px` | pixel |
@@ -60,6 +65,7 @@ This notes is to refresh when I have to deal with it again.
     | pc | `1pc` | pica = 12 pt |
 
   * relative Unit:
+
     | unit | example | comment |
     |--|--|--|
     | em | `0.8em` | font-size of the current element, or inherited font-size if used on font-size property |
@@ -105,6 +111,7 @@ This notes is to refresh when I have to deal with it again.
   * block will take up the whole width and will not be "flowed", like a paragraph.
     It has its own `width` and `height` properties.
   * Basic type of `display`:
+
     | name | example element | comment |
     |------|----|-----|
     | `inline` | `span`, `a` | inline element without its own `width` and `height`. Will be "flowed". |
@@ -114,6 +121,7 @@ This notes is to refresh when I have to deal with it again.
     | `initial` | * | initial `display` from given element |
 
   * flex:
+
     | name | example element | comment |
     |------|----|-----|
     | `flex` | - | element will be flex container |
