@@ -68,6 +68,7 @@ List of interesting list
 [lang/ASN1.md]: lang/ASN1.md "ASN1"
 [lang/KDL.md]: lang/KDL.md "KDL"
 [lang/SQL.md]: lang/SQL.md "SQL"
+[lang/CSS.md]: lang/CSS.md "CSS"
 [linux/ranger.md]: linux/ranger.md "ranger"
 [linux/shell.md]: linux/shell.md "shell"
 [linux/snap.md]: linux/snap.md "snap"
