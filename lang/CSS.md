@@ -28,7 +28,7 @@ This notes is to refresh when I have to deal with it again.
 
 * Specificity of selector, can be noted in 4 digits:
   * `origin, id, class, type`, e.g. `1,3,4,2`
-  * more specific selector wins, e.g. sorted by more specific:
+  * more specific selector wins, example below from most specific to least specific:
 
     | order | specificity | comment |
     |-------|--------------|----|
@@ -49,11 +49,11 @@ This notes is to refresh when I have to deal with it again.
   | # properties | pattern | example | comment |
   |--------------|-|-|-|
   | 4 | `top, right, bottom, left` | `padding: 2em 2em 1em 1em;` | |
-  | 2 | `vertical (top, bottom), horizontal (left, right)` | `padding: 2em 1em` |  |
+  | 2 | `vertical (top, bottom), horizontal (left, right)` | `padding: 2em 1em`; |  |
   | 2 | `x, y` | `box-shadow: 10px 2px;` | |
 
 * Units
-  * Absoulte unit
+  * Absolute unit
 
     | unit | example | comment |
     |--|--|--|
@@ -64,7 +64,7 @@ This notes is to refresh when I have to deal with it again.
     | pt | `12pt` | point = 1/72 inch |
     | pc | `1pc` | pica = 12 pt |
 
-  * relative Unit:
+  * Relative unit
 
     | unit | example | comment |
     |--|--|--|
@@ -110,7 +110,8 @@ This notes is to refresh when I have to deal with it again.
     It doesn't have its own `width`, nor `height` properties.
   * block will take up the whole width and will not be "flowed", like a paragraph.
     It has its own `width` and `height` properties.
-  * Basic type of `display`:
+
+* Basic type of `display`:
 
     | name | example element | comment |
     |------|----|-----|
@@ -120,12 +121,10 @@ This notes is to refresh when I have to deal with it again.
     | `inline-block` | `img` | inline element, but with `width` and `height` |
     | `initial` | * | initial `display` from given element |
 
-  * flex:
+* flex:
 
     | name | example element | comment |
     |------|----|-----|
     | `flex` | - | element will be flex container |
-    | `block`  | `p`, `div`, `h1`, `header` | block element with its own `width` and `height`. It will take up the whole width |
-    | `none` | `link`, `script`, `style`, `title` | element will be hidden. NOTE: `visibility: hidden` will only hide "empty out" the element, but the placeholder for element is still there. `display: none` will totally remove the element from the layout. |
-    | `inline-block` | `img` | inline element, but with `width` and `height` |
-    | `initial` | * | initial `display` from given element |
+
+  > ... to be continued ...
