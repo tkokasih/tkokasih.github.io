@@ -29,7 +29,7 @@ Which is three base64-url encoded parts, separated by dot (go find the two dots 
     eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ
     ```
     which decodes to
-    ```
+    ```json
     {
         "sub": "1234567890",
         "name": "John Doe",

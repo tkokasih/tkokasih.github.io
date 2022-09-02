@@ -11,5 +11,3 @@ In the network, some are:
 * SSH
 
 This is a short summary of the protocols according to my understanding if I need a refresher.
-
-TODO

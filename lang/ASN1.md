@@ -7,7 +7,9 @@ I need to work with asn1 definition in a number of tasks as it is used in telco 
 ASN1 (Abstract Syntax Notation number 1) is a kind of data serialization format definition.
 It has two parts: the definition and the encoding.
 
-* Example of definition (adapted from Wikipedia):
+Below are examples of a definition, a message and how the message can be encoded by different encoding.
+
+* First, an example of definition (adapted from Wikipedia):
     ```
     FooProtocol DEFINITIONS ::= BEGIN
     FooQuestion ::= SEQUENCE {
@@ -22,7 +24,7 @@ It has two parts: the definition and the encoding.
     END
     ```
 
-* Example of message (not yet serialized/encoded):
+* And below is an example of message that we will encode it in next examples:
     ```
     myQuestion FooQuestion ::= {
         trackingNumber  5,
@@ -30,7 +32,7 @@ It has two parts: the definition and the encoding.
     }
     ```
 
-* Encoded in XER
+* This is example of the message encoded in XER
     ```
     <FooQuestion>
         <trackingNumber>5</trackingNumber>
@@ -38,7 +40,7 @@ It has two parts: the definition and the encoding.
     </FooQuestion>
     ```
 
-* Encoded in DER
+* This is example of the message encoded in DER
     ```
     30 13 02 01 05 16 0e 41 6e 79 62 6f 64 79 20 74 68 65 72 65 3f
     ```
@@ -57,9 +59,6 @@ It has two parts: the definition and the encoding.
 
 ## OK, Why?
 
-I think of ASN.1 as a somewhat superset of schema, like XML Schema (XSD), JSONSchema, or even SQL DDL.
-And yes, ASN.1 have a SQL encoding.
-
-## Still confused?
-
-Yeah, this is a low level stuff, but this is used often in cryptography and telco world.
+I like to think of ASN.1 as a schema of schema, or meta-schema.
+Examples of schema that we used to are XML Schema (XSD), JSONSchema or SQL DDL.
+ASN.1 can be 'translated' or 'compiled' to those schema.

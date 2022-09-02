@@ -5,6 +5,17 @@
 CSS is a language that I used not frequently.
 This notes is to refresh when I have to deal with it again.
 
+CSS basic function is to describe how to display **elements**.
+Some concepts that it needs to perform the functions:
+
+| Concept | Short explanation |
+|-------|------|
+| Selector | Select element to apply a ruleset |
+| Position | Define positioning of the element, relative to the surrounding elements/page |
+| Box Model | Define the sizing of element |
+| Value and units | Unit of properties, e.g. pixel, viewport, percent |
+
+
 ## Selectors
 
 * Selector type:
@@ -53,7 +64,7 @@ This notes is to refresh when I have to deal with it again.
   | 2 | `x, y` | `box-shadow: 10px 2px;` | |
 
 * Units
-  * Absolute unit
+  * Absolute unit (not exhaustive)
 
     | unit | example | comment |
     |--|--|--|
@@ -64,7 +75,7 @@ This notes is to refresh when I have to deal with it again.
     | pt | `12pt` | point = 1/72 inch |
     | pc | `1pc` | pica = 12 pt |
 
-  * Relative unit
+  * Relative unit (not exhaustive)
 
     | unit | example | comment |
     |--|--|--|
@@ -74,6 +85,8 @@ This notes is to refresh when I have to deal with it again.
     | vw | `60vw` | 1/100th of viewport width |
     | vmin | `50vmin` | 1/100th of min(viewport height, viewport width) |
     | vmax | `50vmax` | 1/100th of max(viewport height, viewport width) |
+
+  * 
 
 ## Box Model
 
@@ -116,7 +129,7 @@ This notes is to refresh when I have to deal with it again.
     | name | example element | comment |
     |------|----|-----|
     | `inline` | `span`, `a` | inline element without its own `width` and `height`. Will be "flowed". |
-    | `block`  | `p`, `div`, `h1`, `header` | block element with its own `width` and `height`. It will take up the whole width |
+    | `block`  | `p`, `div`, `h1`, `header` | block element with its own `width` and `height`. It will take up the whole width. |
     | `none` | `link`, `script`, `style`, `title` | element will be hidden. NOTE: `visibility: hidden` will only hide "empty out" the element, but the placeholder for element is still there. `display: none` will totally remove the element from the layout. |
     | `inline-block` | `img` | inline element, but with `width` and `height` |
     | `initial` | * | initial `display` from given element |

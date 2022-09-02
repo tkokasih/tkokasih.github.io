@@ -1,6 +1,15 @@
 ## Background
 
-With a lot of companies out there, is there a standard taxonomy of the company?
+Let's say humanity make a settlement in asteroids in order to mine them, what kind of human activity will be there?
+* Mining (main activities)
+* Mining supplies
+* Food supply chain (either grow there or import)
+* Transport
+* Lodging
+* ...
+
+So, is there any classification of possible human activities? Most probably each of those activities will form an industry/business?!
+If so, do we have industry classification?
 
 ## GICS (Global Industry Classification Standard)
 
