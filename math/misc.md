@@ -15,7 +15,9 @@
 | R | Real number | all numbers in real line | `0.2345..., pi, e, 0.25`
 | C | Complex number | numbers in the form of `p + iq` where p and q is integer and i is square root of -1 | `2 + 3i`
 
-* Cantor and infinity
+---
+
+# Cantor and infinity
 
 There are different kind of infinity. Infinity is NOT a number, it is a kind of saying "this things goes on forever". Some infinity is bigger that the others.
 
@@ -33,9 +35,19 @@ Example
 
 
 ---
-Quantum and Matrix
+# Quantum and Matrix
 
 * In quantum formalism with matrix, a state |0> is a definition, e.g.
   |0> is different depending on which quantum phenomena a quantum computer is using, whether it is an electron spin, ... (what are other quantum phenomena human exploits to make quantum computing?)
 
-* 
+# Algebraic Structures
+
+Algebraic structures are a set with an operations, (S, op1, op2, ...) that satisfies some axioms.
+
+| Structure | Operation | Closure | Associative | Identity | Inverse | Commutative |
+|-----------|-----------|---|---|---|---|---|
+| Set              | N.A.  |   |   |   |   |   |
+| Group            | +     | v | v | v | v |   |
+| Abelian Group    | +     | v | v | v | v | v |
+| Ring             | +<br>* (distributive over +) | v<br>v | v<br>v | v<br>v | v<br>- | v<br>- |
+| Field            | +<br>* (distributive over +) | v<br>v | v<br>v | v<br>v | v<br>v | v<br>v |
