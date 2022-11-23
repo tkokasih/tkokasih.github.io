@@ -12,11 +12,11 @@
 | N | Natural number | positive number | ```1, 2, 3, 4, 5, ...```
 | Z | Integer number | whole number, including negative | ```..., -3, -2, -1, 0, 1, 2, 3, ...```
 | Q | Rational number | number expressible as `p/q` where p and q is integer (NOT the precise definition) | ```1/2, 3/4, 227/356, ...```
-| R | Real number | all numbers in real line | `0.2345..., pi, e, 0.25`
+| A | Algebraic number | number that represents solution to polynomials, may include Complex number | ```sqrt(2), sqrt(3), ...```
+| R | Real number | all numbers in real line, rational and irrational | `0.2345..., pi, e, 0.25`
 | C | Complex number | numbers in the form of `p + iq` where p and q is integer and i is square root of -1 | `2 + 3i`
 
 ---
-
 # Cantor and infinity
 
 There are different kind of infinity. Infinity is NOT a number, it is a kind of saying "this things goes on forever". Some infinity is bigger that the others.
@@ -51,3 +51,29 @@ Algebraic structures are a set with an operations, (S, op1, op2, ...) that satis
 | Abelian Group    | +     | v | v | v | v | v |
 | Ring             | +<br>* (distributive over +) | v<br>v | v<br>v | v<br>v | v<br>- | v<br>- |
 | Field            | +<br>* (distributive over +) | v<br>v | v<br>v | v<br>v | v<br>v | v<br>v |
+
+# Foundations of Mathematics
+
+## Propostional Calculus
+
+System P2:
+| Name | Definition | Comment |
+|------|-------|---------|
+| Axiom of Simplification | P -> (Q -> P) | Tautology, regardless the truth of P and Q, this axiom will always produce True |
+| Axiom of Distribution   | (P -> (Q -> R))  ->  ((P -> Q) -> (P -> R)) | 
+| Axiom of Contraposition | (not P -> not Q)  ->  (P -> Q) |
+| Rule: Modus Ponen       | P, P -> Q |- Q | 
+
+## Predicate Calculus
+
+## Set Theory
+
+| Name | Definition | Comment |
+|------|------------|-----------|
+| Axiom of Extensionality |  | Two sets are the same if they have the same elements
+| Axiom of Replacement |  | 
+| Axiom of Union | | 
+| Axiom of Power Set | | 
+| Axiom of Regularity | | 
+| Axiom of Infinity | | 
+| Axiom of Choice | | 
