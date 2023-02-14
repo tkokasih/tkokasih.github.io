@@ -1,7 +1,8 @@
 ## Background
 
-When working with keys and certificate, I still stumbled on PKCS#1, PKCS#8 and PEM.
-A short reading will refresh my understanding.
+When working with keys and certificate, 
+you will encounter PKCS#1, PKCS#8 and PEM.
+This is my short refresher notes.
 
 ## What are those?
 

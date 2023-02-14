@@ -2,17 +2,16 @@
 
 ## Background
 
-CSS is a language that I used not frequently.
-This notes is to refresh when I have to deal with it again.
+This is a personal refresher note on CSS.
 
 CSS basic function is to describe how to display **elements**.
 Some concepts that it needs to perform the functions:
 
 | Concept | Short explanation |
 |-------|------|
-| Selector | Select element to apply a ruleset |
-| Position | Define positioning of the element, relative to the surrounding elements/page |
-| Box Model | Define the sizing of element |
+| Selector | Which element should be targeted by a ruleset |
+| Position | Where should the element be placed |
+| Box Model | How big should the element be displayed |
 | Value and units | Unit of properties, e.g. pixel, viewport, percent |
 
 
@@ -130,7 +129,7 @@ Some concepts that it needs to perform the functions:
     |------|----|-----|
     | `inline` | `span`, `a` | inline element without its own `width` and `height`. Will be "flowed". |
     | `block`  | `p`, `div`, `h1`, `header` | block element with its own `width` and `height`. It will take up the whole width. |
-    | `none` | `link`, `script`, `style`, `title` | element will be hidden. NOTE: `visibility: hidden` will only hide "empty out" the element, but the placeholder for element is still there. `display: none` will totally remove the element from the layout. |
+    | `none` | `link`, `script`, `style`, `title` | element will be hidden. NOTE: `visibility: hidden` will only "empty out" the element, but the placeholder for element is still there. `display: none` will totally remove the element from the layout. |
     | `inline-block` | `img` | inline element, but with `width` and `height` |
     | `initial` | * | initial `display` from given element |
 

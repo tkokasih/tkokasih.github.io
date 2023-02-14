@@ -1,6 +1,7 @@
 ## Background
 
-Coming from Java background which has a persistent server process, I'm wondering where is the counterpart in PHP.
+For Java backend engineer, a server means a running Java web-application process.
+What is the equivalent in PHP world?
 
 ## PHP is scripting
 

@@ -1,6 +1,6 @@
 ## Background
 
-I need to work with asn1 definition in a number of tasks as it is used in telco and cryptography.
+ASN1 definition is commonly used in telco and cryptography. This is a brief personal refresher note.
 
 ## What is ASN1
 

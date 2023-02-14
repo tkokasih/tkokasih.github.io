@@ -1,6 +1,6 @@
 ## Background
 
-I learned that Ubuntu comes up with another packaging format called `snap`. 
+Ubuntu came up with a packaging format called `snap`. 
 Why?
 It sounds like container.
 Why not reuse container?

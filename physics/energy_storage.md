@@ -1,13 +1,16 @@
 ## Background
 
-Having impressed that there is 'air power tools', I was wondering how else can we store energy.
+When thinking energy storage, most people will think of battery.
+However, in some workshop, you can find 'air power tools' powered by compressed air.
+
+It make ones wonder what are other means of storing energy.
 
 It turns out, there are a whole range of options to store energy other than battery or fuel.
-Some of which:
+Some examples:
 * lifting tons of concrete
 e.g. [Energy Vault](https://www.energyvault.com/),
 * melting salt (how does it store the energy?),
-* spinning flywheel,
+* spinning flywheel
 * pumping water into dam
 * and many more ways
 

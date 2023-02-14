@@ -18,7 +18,7 @@ This is a quickstart on how Jekyll works.
 * Posts
 
   File lives in `_posts/` directory with some convention that will be transformed into blog posts.
-  Convention:
+  Conventions:
   * filename: `YEAR-MONTH-DAY-title.MARKUP`, e.g. `2022-01-01-some-title-here.md`
   * content: begin with frontmatter, e.g.
     ```
